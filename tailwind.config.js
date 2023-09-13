@@ -12,8 +12,12 @@ module.exports = {
         "bg-amber-50":"#EAEBF6",
         "bg-emerald-200":"#DDF7EC",
         "bg-gray-50":"#e9f3ef",
+        "bg-emerald-100":"#e3eae3",
+        "bg-yelow-300":"#f8e467",
+        "text-emerald-50":"#cde8e1"
       },
       spacing: {
+        26:"104px",
         38: "152px",
       },
     },

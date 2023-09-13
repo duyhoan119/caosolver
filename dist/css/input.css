@@ -2,6 +2,13 @@
 html, body {
     font-family: 'Poppins', sans-serif !important;
 }
+.captcha-switcher li.uk-active a {
+    background-color: #000;
+    color: #fff;
+}
+.shadow-element:hover {
+    box-shadow: 4px 4px #000
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

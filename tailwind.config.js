@@ -4,17 +4,18 @@ module.exports = {
     extend: {
       colors: {
         emeraid: {
-          50: "#cde8e1",
+          50: "#e9f3ef",
         },
         gray: {
           50: "#B3B3B3",
           100: "#5C5F5E",
+          200: "#e3eae3",
         },
       },
       backgroundColor: {
         emeraid: {
-          50: "#cde8e1",
-          100: "#e3eae3",
+          50: "#e9f3ef",
+          100: "#cde8e1",
           200: "#DDF7EC",
           400: "#9ceedd",
         },
@@ -27,7 +28,7 @@ module.exports = {
         yellow: {
           300: "#f8e467",
         },
-      }
+      },
     },
   },
   plugins: [

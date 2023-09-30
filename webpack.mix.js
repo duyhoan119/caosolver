@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 mix.disableNotifications();
 
 /*
@@ -11,17 +11,22 @@ mix.disableNotifications();
  | file for the application as well as bundling up all the JS files.
  |
  */
-mix.styles([
-  'dist/css/output.css',
-  'dist/libs/slick/slick.css',
-  'dist/libs/uikit/uikit.min.css',
-], 'dist/mix/app.min.css');
+mix.styles(
+  [
+    "dist/css/output.css",
+    "dist/libs/slick/slick.css",
+    "dist/libs/uikit/uikit.min.css",
+  ],
+  "dist/mix/app.min.css"
+);
 
-mix.scripts([
-  'dist/libs/lazyload/lazysizes.min.js',
-  'dist/libs/jquery/jquery-3.6.4.min.js',
-  'dist/libs/slick/slick.min.js',
-  'dist/libs/uikit/uikit.min.js',
-  'dist/js/sidebar-menu.js',
-  'dist/js/app.js',
-], 'dist/mix/app.min.js');
+mix.scripts(
+  [
+    "dist/libs/lazyload/lazysizes.min.js",
+    "dist/libs/jquery/jquery-3.6.4.min.js",
+    "dist/libs/slick/slick.min.js",
+    "dist/libs/uikit/uikit.min.js",
+    "dist/js/app.js",
+  ],
+  "dist/mix/app.min.js"
+);

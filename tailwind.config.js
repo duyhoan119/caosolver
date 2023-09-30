@@ -3,23 +3,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-emerald-50": "#e9f3ef",
-        "bg-emerald-400": "#9ceedd",
-        "bg-orange-50": "#fdf6e1",
-        "text-gray-50":"#B3B3B3",
-        "text-gray-100":"#5C5F5E",
-        "bg-violet-50":"#EAEBF6",
-        "bg-amber-50":"#EAEBF6",
-        "bg-emerald-200":"#DDF7EC",
-        "bg-gray-50":"#e9f3ef",
-        "bg-emerald-100":"#e3eae3",
-        "bg-yelow-300":"#f8e467",
-        "text-emerald-50":"#cde8e1"
+        emeraid: {
+          50: "#cde8e1",
+        },
+        gray: {
+          50: "#B3B3B3",
+          100: "#5C5F5E",
+        },
       },
-      spacing: {
-        26:"104px",
-        38: "152px",
-      },
+      backgroundColor: {
+        emeraid: {
+          50: "#cde8e1",
+          100: "#e3eae3",
+          200: "#DDF7EC",
+          400: "#9ceedd",
+        },
+        orange: {
+          50: "#fdf6e1",
+        },
+        amber: {
+          50: "#EAEBF6",
+        },
+        yellow: {
+          300: "#f8e467",
+        },
+      }
     },
   },
   plugins: [
